@@ -5,7 +5,7 @@
 # Description   :   Exports a list of Realtime Blackhole List (RBL)
 # Author        :   Dreアm @ https://github.com/colorful-dream
 # Created       :   August 7th 2016
-# Last revision :   February 6th 2017
+# Last revision :   August 28th 2017
 # Licence       :   MIT licensed, see LICENSE.md 
 #
 #=============================================================================#
@@ -32,6 +32,7 @@ RBL_SOURCE="
 	bb.barracudacentral.org
 	bl.blocklist.de
 	bl.drmx.org
+	bl.fmb.la
 	bl.konstant.no
 	bl.nszones.com
 	bl.spamcannibal.org
@@ -58,15 +59,19 @@ RBL_SOURCE="
 	cdl.anti-spam.org.cn
 	cidr.bl.mcafee.com
 	combined.rbl.msrbl.net
+	communicado.fmb.la
+	contacts.abuse.net
 	crawler.rbl.webiron.net
 	db.wpbl.info
 	dbl.spamhaus.org
+	dbl.suomispam.net
 	dev.null.dk
 	dialups.visi.com
 	dnsbl-0.uceprotect.net
 	dnsbl-1.uceprotect.net
 	dnsbl-2.uceprotect.net
 	dnsbl-3.uceprotect.net
+	dnsbl.abyan.es
 	dnsbl.anticaptcha.net
 	dnsbl.aspnet.hu
 	dnsbl.cobion.com
@@ -79,9 +84,11 @@ RBL_SOURCE="
 	dnsbl.rv-soft.info
 	dnsbl.rymsho.ru
 	dnsbl.sorbs.net
+	dnsbl.spfbl.net
 	dnsbl.zapbl.net
 	dnsrbl.org
 	dnsrbl.swinog.ch
+	dnswl.spfbl.net
 	dob.sibl.support-intelligence.net
 	dsn.rfc-clueless.org
 	dul.dnsbl.sorbs.net
@@ -114,6 +121,7 @@ RBL_SOURCE="
 	list.bbfh.org
 	list.blogspambl.com
 	mail-abuse.blacklist.jippg.org
+	mailsl.dnsbl.rjek.com
 	misc.dnsbl.sorbs.net
 	multi.surbl.org
 	multi.uribl.com
@@ -125,6 +133,7 @@ RBL_SOURCE="
 	nomail.rhsbl.sorbs.net
 	noptr.spamrats.com
 	noservers.dnsbl.sorbs.net
+	nsbl.fmb.la
 	old.spam.dnsbl.sorbs.net
 	orvedb.aupads.org
 	pbl.spamhaus.org
@@ -132,6 +141,7 @@ RBL_SOURCE="
 	pofon.foobar.hu
 	postmaster.rfc-clueless.org
 	psbl.surriel.com
+	public.sarbl.org
 	rbl.abuse.ro
 	rbl.blockedservers.com
 	rbl.dns-servicios.com
@@ -151,10 +161,12 @@ RBL_SOURCE="
 	rhsbl.sorbs.net
 	rhsbl.zapbl.net
 	rsbl.aupads.org
+	sa.fmb.la
 	safe.dnsbl.sorbs.net
 	sbl-xbl.spamhaus.org
 	sbl.nszones.com
 	sbl.spamhaus.org
+	short.fmb.la
 	short.rbl.jp
 	smtp.dnsbl.sorbs.net
 	socks.dnsbl.sorbs.net
@@ -185,6 +197,7 @@ RBL_SOURCE="
 	uribl.zeustracker.abuse.ch
 	urired.spameatingmonkey.net
 	url.rbl.jp
+	urlsl.dnsbl.rjek.com
 	virbl.dnsbl.bit.nl
 	virus.rbl.jp
 	virus.rbl.msrbl.net
